@@ -3,7 +3,7 @@ class profile::website {
   include 'apache'
 
   apache::vhost { 'localhost':
-    port    => '8080',
+    port    => '80',
     docroot => '/var/www/demo-website',
   }
 
