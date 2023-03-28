@@ -22,6 +22,7 @@ mod 'timidri-meltdown',                       :latest
 mod 'trlinkin-noop',                          :latest
 mod 'pcfens-static_custom_facts',             :latest
 mod 'puppetlabs-awsdemo_profiles', '0.1.1'
+mod 'puppet-jenkins', '3.0.0'
 
 # Modules for automation of Puppet Enterprise itself
 mod 'puppetlabs-bolt_shim',                   :latest
