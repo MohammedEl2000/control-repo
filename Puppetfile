@@ -3,7 +3,7 @@ forge 'https://forge.puppet.com'
 
 # Useful shared capabilities and common dependencies
 mod 'puppetlabs-stdlib',                      :latest
-mod 'puppetlabs-apt',                         :latest
+mod 'puppetlabs-apt', '8.5.0'
 mod 'puppetlabs-concat',                      :latest
 mod 'puppetlabs-docker',                      :latest
 mod 'puppetlabs-exec',                        :latest
@@ -23,7 +23,7 @@ mod 'trlinkin-noop',                          :latest
 mod 'pcfens-static_custom_facts',             :latest
 mod 'puppetlabs-awsdemo_profiles', '0.1.1'
 mod 'puppet-jenkins', '3.0.0'
-mod 'puppetlabs-apt', '9.0.0'
+
 
 # Modules for automation of Puppet Enterprise itself
 mod 'puppetlabs-bolt_shim',                   :latest
