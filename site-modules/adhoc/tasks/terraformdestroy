@@ -1,4 +1,4 @@
 #!/bin/bash
 sudo su
 cd ~/code/Terraform
-terraform destroy -y
+terraform destroy -auto-approve
