@@ -116,7 +116,7 @@ Follow [GitHub's documentation](https://docs.github.com/en/github/creating-cloni
 1. Add your internal repository as the origin remote:
     * `git remote add origin <url of your github repository>`
 1. Push the production branch of the repository from your machine up to your git server
-    * `git push origin production`
+    * `git push origin production 12345`
 
 ## Code Manager Setup
 
