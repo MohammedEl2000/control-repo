@@ -1,0 +1,6 @@
+#!/bin/bash
+sudo su
+cd ~/code/Terraform
+terraform init
+terraform plan
+terraform apply
